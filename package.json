@@ -1,0 +1,22 @@
+{
+  "name": "prompt-site-generator",
+  "version": "1.0.0",
+  "description": "This is a Node.js command-line interface (CLI) tool that generates static websites (HTML, CSS, and JavaScript files) based on a user prompt. For example, running `gen-site --prompt \"generate a marketing site for a solar startup\"` uses the Google Gemini API to scaffold a ready-to-deploy site in an `output/` folder. The tool is built using pure AI assistance (e.g., Grok or Gemini for code generation) without manual coding, making it ideal for beginners or rapid prototyping.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gen-site": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^1.15.0",
+    "@google/generative-ai": "^0.24.1",
+    "commander": "^14.0.0",
+    "dotenv": "^17.2.1"
+  }
+}
